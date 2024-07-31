@@ -6,7 +6,7 @@ import mdx from "@astrojs/mdx";
 export default defineConfig({
   integrations: [tailwind(), mdx()],
   site: "https://pacamara-astro-6y7xr.kinsta.page",
-  image: {
-    service: passthroughImageService(),
-  },
+  // image: {
+  //   service: passthroughImageService(),
+  // },
 });
